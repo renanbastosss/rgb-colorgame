@@ -1,0 +1,40 @@
+@media (max-width: 500px) {
+    header h1 {
+        font-size: 23px;
+    }
+    
+    header p {
+        font-size: 17px;
+    }
+    
+    header div {
+        font-size: 35px;
+    }
+    
+    .buttons-menu {
+        justify-content: space-between;
+        width: 330px;
+        font-size: 14px;
+    }
+
+    .square {
+        width: 100px;
+        height: 100px;
+    }
+
+    .message {
+        padding: 5px 20px;
+        position: fixed;
+        left: calc(50% - 60px);
+        bottom: 12%;
+        background-color: #fff;
+        border-radius: 3px;
+        display: none;
+    }
+
+    footer {
+        position: fixed;
+        min-height: 40px;
+        line-height: 40px;
+    }
+}
