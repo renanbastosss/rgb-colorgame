@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB Color Game</title>
+    <link rel="stylesheet" href="src/css/main.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1>rgb color game</h1>
+        <p>Which color is </p>
+        <div id="picked-color">RGB(<span id="red">255</span>, <span id="green">255</span>, <span id="blue">255</span>)</div>
+    </header>
+
+    <div class="container-buttons-menu">
+        <div class="buttons-menu">
+            <div class="button" id="new-game">New colors</div>
+            <div class="message"></div>
+            <div class="difficult-mode">
+                <div class="button difficult" id="easy">Easy</div>
+                <div class="button difficult  active" id="medium">Medium</div>
+                <div class="button difficult" id="hard">Hard</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-squares">
+        <div class="grid-squares easy">
+            <div class="square" id="square-1"></div>
+            <div class="square" id="square-2"></div>
+            <div class="square" id="square-3"></div>
+        </div>
+        
+        <div class="grid-squares medium">
+            <div class="square" id="square-4"></div>
+            <div class="square" id="square-5"></div>
+            <div class="square" id="square-6"></div>
+        </div>
+
+        <div class="grid-squares hard">
+            <div class="square" id="square-7"></div>
+            <div class="square" id="square-8"></div>
+            <div class="square" id="square-9"></div>
+        </div>
+    </div>
+
+    <div class="guide">
+        
+    </div>
+
+    <footer>
+        <p>Created by @renanbastosss </p>
+    </footer>
+
+    <script src="src/js/index.js"></script>
+</body>
+
+</html>
